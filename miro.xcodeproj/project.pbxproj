@@ -53,11 +53,9 @@
 		74BD903925617725007E7D5B /* miro */ = {
 			isa = PBXGroup;
 			children = (
-				74BD903A25617725007E7D5B /* miroApp.swift */,
-				74BD903C25617725007E7D5B /* ContentView.swift */,
-				74BD903E25617729007E7D5B /* Assets.xcassets */,
-				74BD904325617729007E7D5B /* Info.plist */,
-				74BD904425617729007E7D5B /* miro.entitlements */,
+				74BD904D25617CD4007E7D5B /* Assets */,
+				74BD904C25617CCB007E7D5B /* Views */,
+				74BD904B25617CB8007E7D5B /* App */,
 				74BD904025617729007E7D5B /* Preview Content */,
 			);
 			path = miro;
@@ -69,6 +67,32 @@
 				74BD904125617729007E7D5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74BD904B25617CB8007E7D5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74BD903A25617725007E7D5B /* miroApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		74BD904C25617CCB007E7D5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74BD903C25617725007E7D5B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74BD904D25617CD4007E7D5B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				74BD903E25617729007E7D5B /* Assets.xcassets */,
+				74BD904325617729007E7D5B /* Info.plist */,
+				74BD904425617729007E7D5B /* miro.entitlements */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,14 +292,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = miro/miro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = miro/Assets/miro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"miro/Preview Content\"";
 				DEVELOPMENT_TEAM = RH3QTWX9D5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = miro/Info.plist;
+				INFOPLIST_FILE = miro/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -292,14 +316,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = miro/miro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = miro/Assets/miro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"miro/Preview Content\"";
 				DEVELOPMENT_TEAM = RH3QTWX9D5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = miro/Info.plist;
+				INFOPLIST_FILE = miro/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
