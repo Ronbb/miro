@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    var cpuCount: Int!
+    
+    init() {
+        cpuCount = Int(av_cpu_count())
+    }
     var body: some View {
-        Text("Hello, world!")
+        Text("CPU: \(cpuCount)")
             .padding()
     }
 }
